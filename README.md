@@ -1,3 +1,9 @@
+# Alex Reyne Personal Portfolio Project
+
+Under construction at the moment but if you'd like to see what I've got so far feel free to take a look at the code. Otherwise, if you'd like to see my current portfolio you can see that here:
+
+https://www.creativereyne.ca
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
