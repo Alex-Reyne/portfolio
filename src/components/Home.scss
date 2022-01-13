@@ -1,0 +1,43 @@
+@import './variables';
+
+.content {
+	display: flex;
+	flex-direction: column;
+	color: $white;
+	margin-left: 15rem;
+
+	.home-name h1 {
+		color: $yellow;
+		font-family: $lato;
+		font-weight: $bold;
+		margin-top: 1rem;
+		font-size: 5rem;
+	}
+
+	.alex-info {
+		color: $white;
+		font-family: $lato;
+		font-weight: $reg;
+		margin: -1rem 0 0 0;
+		font-size: 2.15rem;
+
+		h2 {
+			margin: 0 0 0 0;
+		}
+
+		hr {
+			border: none;
+			background-color: $pink;
+			width: 25rem;
+			height: 0.5rem;
+			margin: 1rem 0 0 0;
+			padding: 0;
+		}
+	}
+
+	.bg-logo img {
+		margin: 2rem 0 0 32rem;
+		width: 62%;
+		position: fixed;
+	}
+}

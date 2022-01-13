@@ -7,29 +7,53 @@
 	position: fixed;
 	width: 175.39px;
 	height: 100vh;
-}
-.logo img {
-	margin: 36px 0 0 27px;
-	width: 330px;
-}
-.nav-button {
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-	color: $slate;
-	flex-grow: 1;
-	cursor: pointer;
+	z-index: 999;
 
-	h1 {
-		margin: 0;
-		font-size: 60px;
-		font-family: $lato;
+	.logo img {
+		margin: 36px 0 0 27px;
+		width: 330px;
 	}
 }
-.h {
+
+.link-list {
+	display: flex;
+	flex-direction: column;
+	background-color: #fec859;
+	width: 175.39px;
+	height: 100vh;
+}
+
+a {
+	flex-grow: 1;
+	color: inherit;
+	text-decoration: none;
+
+	.nav-button {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		color: $slate;
+		cursor: pointer;
+		height: 100%;
+
+		h1 {
+			margin: 0;
+			font-size: 60px;
+			font-family: $lato;
+		}
+	}
+}
+
+.active {
+	display: inherit;
+	justify-content: center;
+	align-items: center;
 	background-color: $slate;
-	color: $pink;
+
+	h1 {
+		color: $pink;
+	}
 
 	.selected {
 		color: $white;
