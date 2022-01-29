@@ -4,6 +4,11 @@
 	flex-direction: column;
 	color: $white;
 
+	.gt {
+		color: $pink;
+		margin-right: 1ch;
+	}
+
 	.home-name h1 {
 		color: $yellow;
 		font-family: $lato;
@@ -13,7 +18,7 @@
 		font-size: 5rem;
 	}
 
-	.alex-info {
+	.alex-headline {
 		color: $white;
 		font-family: $lato;
 		font-weight: $reg;

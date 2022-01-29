@@ -1,0 +1,36 @@
+@import '../../Styles/variables.scss';
+
+.about-content {
+	display: flex;
+	flex-direction: column;
+	max-width: 30rem;
+	margin-left: 15rem;
+	margin-top: 1rem;
+
+	.about-title {
+		display: flex;
+		flex-direction: row;
+	}
+
+	hr {
+		border: none;
+		background-color: $pink;
+		width: 19rem;
+		height: 0.5rem;
+		margin: -1rem 0 1rem 0;
+		padding: 0;
+	}
+
+	h1 {
+		color: $yellow;
+		font-family: $azeret;
+		font-size: 3rem;
+	}
+
+	p {
+		font-family: $lato;
+		font-size: 23px;
+		margin-top: 0.25rem;
+		margin-bottom: 1.25rem;
+	}
+}
