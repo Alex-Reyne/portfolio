@@ -1,7 +1,6 @@
 import { useState } from 'react';
-import NavList from './NavList';
 import { NavLink, useLocation } from 'react-router-dom';
-import './Nav.scss';
+import './Styles/Nav.scss';
 
 const HOME = 'home';
 const ABOUT = 'about';
