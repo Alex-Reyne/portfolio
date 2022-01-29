@@ -3,7 +3,7 @@
 .navbar {
 	display: flex;
 	flex-direction: column;
-	background-color: #fec859;
+	background-color: $yellow;
 	position: fixed;
 	width: 175.39px;
 	height: 100vh;
@@ -39,10 +39,14 @@ a {
 
 		h1 {
 			margin: 0;
-			font-size: 60px;
+			font-size: 30px;
 			font-family: $lato;
 		}
 	}
+}
+
+.nav-button:hover {
+	color: $pink;
 }
 
 .active {
@@ -51,13 +55,9 @@ a {
 	align-items: center;
 	background-color: $slate;
 
-	h1 {
-		color: $pink;
-	}
-
 	.selected {
-		color: $white;
-		font-size: 30px;
+		font-size: 4rem;
 		margin: 0;
+		color: $white;
 	}
 }
