@@ -7,9 +7,9 @@ export default function About() {
 	return (
 		<div className='content'>
 			<Header />
-			<div className='bg-logo'>
+			{/* <div className='bg-logo'>
 				<img src='images/alex-reyne-logo-gradient.png' alt='Alex Reyne Logo' />
-			</div>
+			</div> */}
 			<div className='about-content'>
 				<section className='about-title'>
 					<h1 className='gt'>&gt;</h1>

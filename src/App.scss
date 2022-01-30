@@ -1,4 +1,13 @@
 @import './Styles/variables';
+
+body {
+	min-height: 100vh;
+	background-image: url('./images/background-logo.svg');
+	background-size: cover;
+	background-position: center right;
+	z-index: 0;
+}
+
 .content {
 	display: flex;
 	flex-direction: column;

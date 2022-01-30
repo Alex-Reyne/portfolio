@@ -12,9 +12,9 @@ export default function Home() {
 	return (
 		<div className='content'>
 			<Header />
-			<div className='bg-logo'>
+			{/* <div className='bg-logo'>
 				<img src='images/alex-reyne-logo-gradient.png' alt='Alex Reyne Logo' />
-			</div>
+			</div> */}
 			<div className='home-icons'>
 				<div>
 					<a href='https://github.com/alex-reyne' target='_blank'>
