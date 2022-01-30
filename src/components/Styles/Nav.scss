@@ -46,6 +46,7 @@ a {
 
 .nav-button:hover {
 	color: $pink;
+	transition: 1s;
 }
 
 .active {
@@ -53,10 +54,12 @@ a {
 	justify-content: center;
 	align-items: center;
 	background-color: $slate;
+	transition: 1s;
 
 	.selected {
 		font-size: 4rem;
 		margin: 0;
 		color: $white;
+		transition: 1s;
 	}
 }

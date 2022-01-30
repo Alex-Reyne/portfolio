@@ -19,26 +19,26 @@ export default function Nav(props) {
 			<div className='link-list'>
 				<NavLink to='/' onClick={e => setView(HOME)}>
 					<div className='nav-button'>
-						{view === HOME && <h1 className='selected'>+H</h1>}
-						{view !== HOME && <h1>HOME</h1>}
+						{view === HOME && <h1 className='selected fade-in'>+H</h1>}
+						{view !== HOME && <h1 className='fade-in'>HOME</h1>}
 					</div>
 				</NavLink>
 				<NavLink to='/about' onClick={e => setView(ABOUT)}>
 					<div className='nav-button'>
-						{view === ABOUT && <h1 className='selected'>+A</h1>}
-						{view !== ABOUT && <h1>ABOUT</h1>}
+						{view === ABOUT && <h1 className='selected fade-in'>+A</h1>}
+						{view !== ABOUT && <h1 className='fade-in'>ABOUT</h1>}
 					</div>
 				</NavLink>
 				<NavLink to='/work' onClick={e => setView(WORK)}>
 					<div className='nav-button'>
-						{view === WORK && <h1 className='selected'>+W</h1>}
-						{view !== WORK && <h1>WORK</h1>}
+						{view === WORK && <h1 className='selected fade-in'>+W</h1>}
+						{view !== WORK && <h1 className='fade-in'>WORK</h1>}
 					</div>
 				</NavLink>
 				<NavLink to='/resume' onClick={e => setView(RESUME)}>
 					<div className='nav-button'>
-						{view === RESUME && <h1 className='selected'>+R</h1>}
-						{view !== RESUME && <h1>RESUME</h1>}
+						{view === RESUME && <h1 className='selected fade-in'>+R</h1>}
+						{view !== RESUME && <h1 className='fade-in'>RESUME</h1>}
 					</div>
 				</NavLink>
 			</div>

@@ -12,6 +12,10 @@
 		margin-left: 2.5rem;
 	}
 
+	a {
+		transition: 1s;
+	}
+
 	a:hover {
 		color: $pink;
 	}
