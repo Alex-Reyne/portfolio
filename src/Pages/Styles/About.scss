@@ -5,11 +5,38 @@
 	flex-direction: column;
 	max-width: 30rem;
 	margin-left: 15rem;
-	margin-top: 1rem;
+	margin-top: 20rem;
+	z-index: 999;
+	position: fixed;
 
 	.about-title {
 		display: flex;
 		flex-direction: row;
+		cursor: pointer;
+	}
+
+	.open {
+		animation: open 2s forwards;
+	}
+	.closed {
+		animation: closed 2s forwards;
+	}
+
+	@keyframes open {
+		0% {
+			transform: rotate(0deg);
+		}
+		100% {
+			transform: rotate(90deg);
+		}
+	}
+	@keyframes closed {
+		0% {
+			transform: rotate(90deg);
+		}
+		100% {
+			transform: rotate(0deg);
+		}
 	}
 
 	hr {
