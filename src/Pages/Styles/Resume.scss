@@ -1,0 +1,15 @@
+@import '../../Styles/variables.scss';
+
+.content {
+	display: flex;
+	flex-direction: column;
+
+	.resume-content {
+		display: flex;
+		flex-direction: row;
+		.left-column {
+		}
+		.right-column {
+		}
+	}
+}
