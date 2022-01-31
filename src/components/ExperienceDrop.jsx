@@ -28,19 +28,19 @@ export default function ExperienceDrop() {
 								<h3>Creative Reyne</h3>
 								<p className='years'>2015-present</p>
 								<p>
-									Creative, analytical, web developer with management experience
-									pivoting from my career in graphic design where I specialized
-									in logo design.
+									Though I was working regular jobs through most of my freelance
+									career, since the covid pandemic I had to turn that into a
+									full-time job.
 								</p>
 							</section>
 							<section className='experience-alex card-2'>
-								<h1>Freelance Graphic Designer</h1>
-								<h3>Creative Reyne</h3>
-								<p className='years'>2015-present</p>
+								<h1>Graphic Designer / Production Manager</h1>
+								<h3>Uno Printing Co</h3>
+								<p className='years'>2018-2019</p>
 								<p>
-									Creative, analytical, web developer with management experience
-									pivoting from my career in graphic design where I specialized
-									in logo design.
+									For about a year before the pandemic I worked at Uno Printing
+									with hundereds of clients, from concept to completion of final
+									product.
 								</p>
 							</section>
 						</div>
@@ -61,9 +61,9 @@ export default function ExperienceDrop() {
 								<h3>Creative Reyne</h3>
 								<p className='years'>2015-present</p>
 								<p>
-									Creative, analytical, web developer with management experience
-									pivoting from my career in graphic design where I specialized
-									in logo design.
+									Though I was working regular jobs through most of my freelance
+									career, since the covid pandemic I had to turn that into a
+									full-time job.
 								</p>
 							</section>
 							<section className='experience-alex card-2'>
@@ -71,9 +71,9 @@ export default function ExperienceDrop() {
 								<h3>Uno Printing Co</h3>
 								<p className='years'>2018-2019</p>
 								<p>
-									Creative, analytical, web developer with management experience
-									pivoting from my career in graphic design where I specialized
-									in logo design.
+									For about a year before the pandemic I worked at Uno Printing
+									with hundereds of clients, from concept to completion of final
+									product.
 								</p>
 							</section>
 						</div>
