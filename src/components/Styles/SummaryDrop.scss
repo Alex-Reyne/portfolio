@@ -1,0 +1,60 @@
+@import '../../Styles/variables.scss';
+
+.summary-content {
+	display: flex;
+	flex-direction: column;
+	max-width: 20rem;
+	margin-left: 15rem;
+	margin-top: 0.25rem;
+
+	.summary-title {
+		display: flex;
+		flex-direction: row;
+		cursor: pointer;
+		margin-bottom: -1rem;
+	}
+
+	.open {
+		animation: open 2s forwards;
+	}
+	.closed {
+		animation: closed 2s forwards;
+	}
+
+	@keyframes open {
+		0% {
+			transform: rotate(0deg);
+		}
+		100% {
+			transform: rotate(90deg);
+		}
+	}
+	@keyframes closed {
+		0% {
+			transform: rotate(90deg);
+		}
+		100% {
+			transform: rotate(0deg);
+		}
+	}
+
+	h1 {
+		color: $yellow;
+		font-family: $azeret;
+		font-size: 2rem;
+	}
+
+	h3 {
+		color: $pink;
+		font-family: $bebas;
+		font-size: x-large;
+		letter-spacing: 0.5rem;
+		margin-bottom: 0.25rem;
+	}
+
+	p {
+		font-family: $lato;
+		font-size: 18px;
+		margin-top: 0rem;
+	}
+}
