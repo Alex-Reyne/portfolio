@@ -21,7 +21,6 @@ export default function About() {
 							<h1 className='gt closed'>&gt;</h1>
 							<h1>{aboutString}</h1>
 						</section>
-						<hr className='fade-out'></hr>
 						<div className='about-alex fade-out'>
 							<p>
 								I’m a Full-Stack Web Developer and self taught Graphic Designer.
@@ -55,7 +54,6 @@ export default function About() {
 							<h1 className='gt open'>&gt;</h1>
 							<h1>{aboutString}</h1>
 						</section>
-						<hr className='fade-in'></hr>
 						<div className='about-alex fade-in'>
 							<p>
 								I’m a Full-Stack Web Developer and self taught Graphic Designer.
