@@ -16,22 +16,32 @@ export default function IconLinks() {
 				<>
 					<div className='home-icons fade-in'>
 						<div>
-							<a href='https://github.com/alex-reyne' target='_blank'>
+							<a
+								href='https://github.com/alex-reyne'
+								rel='noreferrer'
+								target='_blank'
+							>
 								<FontAwesomeIcon icon={faGithubSquare} />
 							</a>
-							<a href='https://medium.com/@creativereyne' target='_blank'>
+							<a
+								href='https://medium.com/@creativereyne'
+								rel='noreferrer'
+								target='_blank'
+							>
 								<FontAwesomeIcon icon={faMedium} />
 							</a>
 						</div>
 						<div>
 							<a
 								href='https://www.linkedin.com/in/alexanderreyne/'
+								rel='noreferrer'
 								target='_blank'
 							>
 								<FontAwesomeIcon icon={faLinkedin} />
 							</a>
 							<a
 								href='https://www.instagram.com/alexreyne.dev/'
+								rel='noreferrer'
 								target='_blank'
 							>
 								<FontAwesomeIcon icon={faInstagramSquare} />
@@ -44,22 +54,32 @@ export default function IconLinks() {
 				<>
 					<div className='home-icons fade-out'>
 						<div>
-							<a href='https://github.com/alex-reyne' target='_blank'>
+							<a
+								href='https://github.com/alex-reyne'
+								rel='noreferrer'
+								target='_blank'
+							>
 								<FontAwesomeIcon icon={faGithubSquare} />
 							</a>
-							<a href='https://medium.com/@creativereyne' target='_blank'>
+							<a
+								href='https://medium.com/@creativereyne'
+								rel='noreferrer'
+								target='_blank'
+							>
 								<FontAwesomeIcon icon={faMedium} />
 							</a>
 						</div>
 						<div>
 							<a
 								href='https://www.linkedin.com/in/alexanderreyne/'
+								rel='noreferrer'
 								target='_blank'
 							>
 								<FontAwesomeIcon icon={faLinkedin} />
 							</a>
 							<a
 								href='https://www.instagram.com/alexreyne.dev/'
+								rel='noreferrer'
 								target='_blank'
 							>
 								<FontAwesomeIcon icon={faInstagramSquare} />
