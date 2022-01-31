@@ -1,0 +1,85 @@
+@import '../../Styles/variables.scss';
+
+.experience-content {
+	display: flex;
+	flex-direction: column;
+	max-width: 40rem;
+	margin-left: 5rem;
+	margin-top: 2rem;
+
+	.experience-title {
+		display: flex;
+		flex-direction: row;
+		cursor: pointer;
+		margin-bottom: -1rem;
+	}
+
+	.experience-cards {
+		display: flex;
+		flex-direction: row;
+		.card-2 {
+			margin-left: 1rem;
+		}
+	}
+
+	.experience-alex {
+		background-color: $slate;
+		padding: 1rem;
+		box-shadow: 0.25rem 0.25rem 0px $pink;
+
+		h1 {
+			color: $yellow;
+			font-family: $lato;
+			font-size: 1.75rem;
+			margin-top: 0;
+		}
+
+		.years {
+			color: $pink;
+		}
+	}
+
+	.open {
+		animation: open 2s forwards;
+	}
+	.closed {
+		animation: closed 2s forwards;
+	}
+
+	@keyframes open {
+		0% {
+			transform: rotate(0deg);
+		}
+		100% {
+			transform: rotate(90deg);
+		}
+	}
+	@keyframes closed {
+		0% {
+			transform: rotate(90deg);
+		}
+		100% {
+			transform: rotate(0deg);
+		}
+	}
+
+	h1 {
+		color: $yellow;
+		font-family: $azeret;
+		font-size: 2rem;
+	}
+
+	h3 {
+		color: $pink;
+		font-family: $bebas;
+		font-size: x-large;
+		letter-spacing: 0.5rem;
+		margin-bottom: 0.25rem;
+	}
+
+	p {
+		font-family: $lato;
+		font-size: 15px;
+		margin-top: 0rem;
+	}
+}
