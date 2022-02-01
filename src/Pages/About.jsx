@@ -1,6 +1,6 @@
 import { useState } from 'react/cjs/react.development';
 import Header from '../components/Header';
-import IconLinks from '../components/IconLinks';
+import SmIconLinks from '../components/SmIconLinks';
 import './Styles/About.scss';
 
 const OPEN = 'open';
@@ -13,6 +13,7 @@ export default function About() {
 	return (
 		<div className='content'>
 			<Header />
+			<SmIconLinks />
 			<div className='about-content'>
 				{aboutView === CLOSED && (
 					<>

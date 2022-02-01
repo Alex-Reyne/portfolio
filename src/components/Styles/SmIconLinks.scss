@@ -1,0 +1,18 @@
+@import '../../Styles/variables.scss';
+
+.sm-icon-links {
+	display: flex;
+	flex-direction: column;
+	margin-top: -16rem;
+	margin-left: 95vw;
+	font-size: 50px;
+	color: $slate;
+	z-index: 999;
+	a {
+		transition: 1s;
+	}
+
+	a:hover {
+		color: $pink;
+	}
+}

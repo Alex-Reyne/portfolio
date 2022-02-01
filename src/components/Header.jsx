@@ -1,4 +1,8 @@
+import { useLocation } from 'react-router-dom';
+import SmIconLinks from './SmIconLinks';
+
 export default function Header() {
+	const location = useLocation().pathname;
 	return (
 		<div className='home-name'>
 			<h1>Alexander Reyne</h1>

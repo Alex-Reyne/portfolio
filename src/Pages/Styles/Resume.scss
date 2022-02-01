@@ -7,9 +7,39 @@
 	.resume-content {
 		display: flex;
 		flex-direction: row;
-		.left-column {
+		margin-top: 1.5rem;
+	}
+
+	#download-resume {
+		color: $pink;
+		font-size: 4rem;
+		max-width: 8rem;
+		text-align: center;
+		margin-top: 12rem;
+		margin-left: 85rem;
+		cursor: pointer;
+		position: absolute;
+		z-index: 999;
+
+		path {
+			animation: bounce 0.5s infinite alternate;
 		}
-		.right-column {
+
+		@keyframes bounce {
+			from {
+				transform: translateY(0rem);
+			}
+			to {
+				transform: translateY(4rem);
+			}
+		}
+
+		p {
+			color: $yellow;
+			font-family: $lato;
+			font-weight: $bold;
+			margin-top: 0;
+			font-size: 1rem;
 		}
 	}
 }
