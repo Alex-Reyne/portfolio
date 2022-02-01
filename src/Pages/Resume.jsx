@@ -3,6 +3,7 @@ import './Styles/Resume.scss';
 import EducationDrop from '../components/EducationDrop';
 import SummaryDrop from '../components/SummaryDrop';
 import ExperienceDrop from '../components/ExperienceDrop';
+import StackDrop from '../components/StackDrop';
 export default function Resume() {
 	return (
 		<div className='content'>
@@ -16,6 +17,7 @@ export default function Resume() {
 				</div>
 				<div className='right-column'>
 					<ExperienceDrop />
+					<StackDrop />
 				</div>
 			</div>
 		</div>

@@ -13,7 +13,6 @@ export default function About() {
 	return (
 		<div className='content'>
 			<Header />
-			<IconLinks />
 			<div className='about-content'>
 				{aboutView === CLOSED && (
 					<>
